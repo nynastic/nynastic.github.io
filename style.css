@@ -1,0 +1,115 @@
+.wrapper{
+    background-color: #585858;
+}
+header{
+    background-color: #2f2f2f;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+header .nav-bar{
+    text-align: center;
+}
+
+.logo img{
+    border-radius: 100%;
+    height: 100px;
+    padding: 1%;
+    float: left;
+}
+
+.menu{
+    overflow: hidden;
+}
+
+.menu li{
+    display: inline-block;
+    float: left;
+    padding: 1%;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.home{
+    text-transform: uppercase;
+    background-color: #2f2f2f;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    color: white;
+}
+.title h1{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.title a{
+    margin-left: 25px;
+}
+.about{
+    color: white;
+    background-image: url(Images/wallpaperflare.com_wallpaper.jpg);
+    height: 400px;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.about .title{
+    display: block;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+hr{
+    width: 150px;
+}
+
+h5{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.gallery{
+    width: 1000px;
+    margin: auto;
+}
+.group{
+    display: flex;
+    margin: 30px 0;
+}
+.pic{
+    width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+.pic img{
+    height: 300px;
+    width: 300px;
+    text-align: left;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #2f2f2f;
+    line-height: 100px;
+}
+footer .left{
+    margin: auto;
+    color: white;
+}
+footer .right{
+    margin: auto;
+}
+footer i.fa{
+    font-size: 30px;
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
